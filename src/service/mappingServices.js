@@ -10,11 +10,3 @@ export function pushToArray (docs){
     })
     return(arrayData);
 }
-// export function getId(){
-//     id="";
-//     ref = getProducts().collection("data").document();
-//     myId = ref.getId();
-//     id=myId;
-//     return(id)
-
-// }
