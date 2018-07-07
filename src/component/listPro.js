@@ -10,7 +10,7 @@ const activeColor = "#F15C53";
 @inject('onProduct')
 @observer
 
-class ListProduct extends Component {
+class ListPro extends Component {
 
     componentWillMount() {
         this.props.onProduct.selectedID(this.props.index)
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
     },
 
 });
-export default ListProduct;
+export default ListPro;
 
 
 
